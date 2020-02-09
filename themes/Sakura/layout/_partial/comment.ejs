@@ -1,0 +1,16 @@
+<% if ( post.comments) { %>
+  <script src="https://cdn.jsdelivr.net/gh/yremp/yremp-js@1.1/gitalk.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yremp/yremp-css@1.3/gitalk.css">
+  <div id="gitalk-container"></div>
+  <script type="text/javascript">
+      var gitalk = new Gitalk({
+          clientID: '<%= theme.gitalk.clientID %>',
+          clientSecret: '<%= theme.gitalk.clientSecret %>',
+          id: window.location.pathname,
+          repo: '<%= theme.gitalk.repo %>',
+          owner: '<%= theme.gitalk.owner %>',
+          admin: '<%= theme.gitalk.admin %>'
+      })
+      gitalk.render('gitalk-container')
+    </script>
+<% } %>
