@@ -12,7 +12,7 @@
       <p class="entry-census">
         <span>
           <a href="<%- post.authorLink%>">
-            <img src="<%- post.avatar%>">
+            <img src="<%- (theme.cdn || '') + theme.avatar %>">
           </a>
         </span>
         <span>
@@ -105,7 +105,7 @@
       <%- partial('_partial/comment') %>
       <section class="author-profile">
         <div class="info" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-          <a href="<%- post.authorLink %>" class="profile gravatar"><img src="https://i.loli.net/2020/02/09/KxCtIyfFesrv4Zw.jpg" itemprop="image" alt="<%- post.author %>" height="70" width="70"></a>
+          <a href="<%- post.authorLink %>" class="profile gravatar"><img src="<%- (theme.cdn || '') + theme.avatar %>" itemprop="image" alt="<%- post.author %>" height="70" width="70"></a>
           <div class="meta">
             <span class="title">Author</span>
             <h3 itemprop="name">

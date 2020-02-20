@@ -2,7 +2,7 @@
 title: {{ title }}
 date: {{ date }}
 author: 不安きのこ
-avatar: 'https://i.loli.net/2020/02/09/KxCtIyfFesrv4Zw.jpg'
+avatar: 'https://bbs.bemanicn.cc/uc_server/avatar.php?uid=4174&size=big'
 authorLink: 'https://fuann-kinoko.github.io/'
 categories: 
 comments: true
