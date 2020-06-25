@@ -47,12 +47,13 @@ homePageSortType: -1
 homeArticleShown: 10
 # 背景图片 更好的修改
 bg:
+  - https://cdn.jsdelivr.net/gh/Fuann-Kinoko/cdn@0.1/Covers/BDO.webp
 #    - https://cdn.jsdelivr.net/gh/Fuann-Kinoko/cdn@0.1/Covers/(6).webp
-   - https://cdn.jsdelivr.net/gh/Fuann-Kinoko/cdn@0.1/Covers/(1).webp
-   - https://cdn.jsdelivr.net/gh/Fuann-Kinoko/cdn@0.1/Covers/(2).webp
-   - https://cdn.jsdelivr.net/gh/Fuann-Kinoko/cdn@0.1/Covers/(3).webp
-   - https://cdn.jsdelivr.net/gh/Fuann-Kinoko/cdn@0.1/Covers/(4).webp
-   - https://cdn.jsdelivr.net/gh/Fuann-Kinoko/cdn@0.1/Covers/(5).webp
+#   - https://cdn.jsdelivr.net/gh/Fuann-Kinoko/cdn@0.1/Covers/(1).webp
+#   - https://cdn.jsdelivr.net/gh/Fuann-Kinoko/cdn@0.1/Covers/(2).webp
+#   - https://cdn.jsdelivr.net/gh/Fuann-Kinoko/cdn@0.1/Covers/(3).webp
+#   - https://cdn.jsdelivr.net/gh/Fuann-Kinoko/cdn@0.1/Covers/(4).webp
+#   - https://cdn.jsdelivr.net/gh/Fuann-Kinoko/cdn@0.1/Covers/(5).webp
 #  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(1).jpg.webp
 #  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(2).jpg.webp
 #  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(3).jpg.webp
