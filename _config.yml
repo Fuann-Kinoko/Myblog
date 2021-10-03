@@ -86,11 +86,11 @@ deploy:
   branch: master
 
 # backup
-# backup:
-#   type: git
-#   message: backup
-#   repository:
-#      github: https://github.com/Fuann-Kinoko/Blog_backup.git,backup
+  backup:
+   type: git
+   message: backup
+   repository:
+      github: https://github.com/Fuann-Kinoko/Blog_backup.git,backup
 #      coding: https://git.coding.net/hojun/hojun.git,backup
 
 # Security
