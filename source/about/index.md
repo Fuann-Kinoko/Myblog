@@ -10,6 +10,6 @@ photos: https://cdn.jsdelivr.net/gh/Fuann-Kinoko/cdn@0.1/banner/about.jpg
 
 
 
-目前在读高中，OIer（~~校强我弱~~），不过这个博客不是用来做笔记的，因此可能没啥OI内容。
+目前在CQU，高中搞过一点OI。不定时更新。
 
 
