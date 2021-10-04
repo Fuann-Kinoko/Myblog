@@ -72,18 +72,18 @@ siteBuildingTime: 07/17/2018
 
 #social  url, img PC端配置
 social:
-  github: {url: http://github.com/honjun, img: /img/social/github.png}
-  sina: {url: http://weibo.com/mashirozx?is_all=1, img: /img/social/sina.png}
-  wangyiyun: {url: http://weibo.com/mashirozx?is_all=1, img: /img/social/wangyiyun.png}
+  github: {url: https://github.com/Fuann-Kinoko, img: /img/social/github.png}
+  sina: {url: https://weibo.com/u/7413104452, img: /img/social/sina.png}
+  wangyiyun: {url: https://music.163.com/#/user/home?id=77636128, img: /img/social/wangyiyun.png}
   zhihu: {url: http://weibo.com/mashirozx?is_all=1, img: /img/social/zhihu.png}
   email: {url: http://weibo.com/mashirozx?is_all=1, img: /img/social/email.svg}
   wechat: {url: /#, qrcode: /img/custom/wechat.jpg, img: /img/social/wechat.png}
 
 #social  url, img 移动端配置
 msocial:
-  github: {url: http://github.com/honjun, fa: fa-github, color: 333}
-  weibo: {url: http://weibo.com/mashirozx?is_all=1, fa: fa-weibo, color: dd4b39}
-  qq: {url: https://wpa.qq.com/msgrd?v=3&uin=954655431&site=qq&menu=yes, fa: fa-qq, color: 25c6fe}
+  github: {url: https://github.com/Fuann-Kinoko, fa: fa-github, color: 333}
+  weibo: {url: https://weibo.com/u/7413104452, fa: fa-weibo, color: dd4b39}
+  qq: {url: https://i.loli.net/2021/10/04/SQuhe9lApTmIyoM.jpg, fa: fa-qq, color: 25c6fe}
 
 donate:
   paypal: https://www.paypal.me/hojuncn
