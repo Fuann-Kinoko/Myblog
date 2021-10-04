@@ -2,7 +2,7 @@
 title: {{ title }}
 date: {{ date }}
 author: 不安きのこ
-avatar: 'https://bbs.bemanicn.cc/uc_server/avatar.php?uid=4174&size=big'
+avatar: 'https://cdn.jsdelivr.net/gh/Fuann-Kinoko/cdn@0.1/avatar/avater-tsuki.png'
 authorLink: 'https://fuann-kinoko.github.io/'
 categories: 
 comments: true

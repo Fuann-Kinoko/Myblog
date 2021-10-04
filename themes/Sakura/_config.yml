@@ -1,9 +1,9 @@
 # site name
-prefixName: 不安きのこ
-siteName: Site
+prefixName: -w-
+siteName: 不安きのこ
 # favicon and site master avatar
-favicon: https://cdn.jsdelivr.net/gh/Fuann-Kinoko/cdn@0.1/favicon/bitbug_favicon.ico
-avatar: https://bbs.bemanicn.cc/uc_server/avatar.php?uid=4174&size=big
+favicon: https://cdn.jsdelivr.net/gh/Fuann-Kinoko/cdn@0.1/favicon/bitbug_favicon2.ico
+avatar: https://cdn.jsdelivr.net/gh/Fuann-Kinoko/cdn@0.1/avatar/avater-tsuki.png
 url: https://fuann-kinoko.github.io/
 description: Vtuber废人/游戏废人
 #cdn: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6

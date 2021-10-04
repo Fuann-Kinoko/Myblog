@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: フキコサイト|不安きのこ
+title: Blog - 不安きのこ -
 subtitle:
 description: ププ
 keywords:
 author: hojun
 language: zh-cn
-timezone:
+timezone: 
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
