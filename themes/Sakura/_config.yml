@@ -1,5 +1,5 @@
 # site name
-prefixName: -w-
+prefixName: 
 siteName: 不安きのこ
 # favicon and site master avatar
 favicon: https://cdn.jsdelivr.net/gh/Fuann-Kinoko/cdn@0.1/favicon/bitbug_favicon2.ico
@@ -47,7 +47,7 @@ homePageSortType: -1
 homeArticleShown: 10
 # 背景图片 更好的修改
 bg:
-  - https://cdn.jsdelivr.net/gh/Fuann-Kinoko/cdn@0.1/Covers/BDO.webp
+  - https://cdn.jsdelivr.net/gh/Fuann-Kinoko/cdn@0.1/Covers/116.webp
 #    - https://cdn.jsdelivr.net/gh/Fuann-Kinoko/cdn@0.1/Covers/(6).webp
 #   - https://cdn.jsdelivr.net/gh/Fuann-Kinoko/cdn@0.1/Covers/(1).webp
 #   - https://cdn.jsdelivr.net/gh/Fuann-Kinoko/cdn@0.1/Covers/(2).webp
