@@ -118,24 +118,33 @@ aplayer:
   mutex: true
 
 # Valine
-valine: true
-v_appId: GyC3NzMvd0hT9Yyd2hYIC0MN-gzGzoHsz
-v_appKey: mgOpfzbkHYqU92CV4IDlAUHQ
+# You can get your appid and appkey from https://leancloud.cn
+# More info available at https://valine.js.org
+valine:
+  enable: true # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version.
+  appid: P0YeSxgMX2gJNe4bTcHDlH1f-gzGzoHsz
+  appkey: gyrwrBnl0XXlnCfHrGqABj9t
+  # notify: false # mail notifier, See: https://github.com/xCss/Valine/wiki
+  # verify: false # Verification code
+  # placeholder:  # comment box placeholder
+  # avatar: mm # gravatar style
+  # guest_info: nick,mail,link # custom comment header
+  # pageSize: 10 # pagination size
 
-gitalk:
-    # 是否自动展开评论框
-    autoExpand: true
-    # 应用编号
-    clientID: 'ec9b058fe1ac5ff50321'
-    # 应用秘钥
-    clientSecret: 'c15b5207147bf6307553ec6f3ed08147a941d30b'
-    # issue仓库名
-    repo: 'Fuann-Kinoko.github.io'
-    # Github名
-    owner: 'Fuann-Kinoko'
-    # Github名
-    admin: ['Fuann-Kinoko']
-    # Ensure uniqueness and length less than 50
-    id: location.pathname
-    # Facebook-like distraction free mode
-    distractionFreeMode: false
+# gitalk:
+#     # 是否自动展开评论框
+#     autoExpand: true
+#     # 应用编号
+#     clientID: 'ec9b058fe1ac5ff50321'
+#     # 应用秘钥
+#     clientSecret: 'c15b5207147bf6307553ec6f3ed08147a941d30b'
+#     # issue仓库名
+#     repo: 'Fuann-Kinoko.github.io'
+#     # Github名
+#     owner: 'Fuann-Kinoko'
+#     # Github名
+#     admin: ['Fuann-Kinoko']
+#     # Ensure uniqueness and length less than 50
+#     id: location.pathname
+#     # Facebook-like distraction free mode
+#     distractionFreeMode: false
