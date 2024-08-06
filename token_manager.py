@@ -32,20 +32,27 @@ def read_token_from_file(filename):
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python token_manager.py <action> [token] [--file <filename>]")
-        print("\tpython token_manager.py obfuscate <token>")
+        print("Usage: python token_manager.py <action> [token] [option]")
+        print("\tpython token_manager.py obfuscate <token> [--save]")
         print("\tpython token_manager.py deobfuscate [--file <filename>]")
         sys.exit(1)
 
     action = sys.argv[1]
     if action == 'obfuscate':
-        if len(sys.argv) != 3:
+        should_save = False
+        if len(sys.argv) != 3 or (len(sys.argv) == 4 and sys.argv[3] == '--save'):
             print("Error, \tpython token_manager.py obfuscate <token>")
             sys.exit(1)
+        if len(sys.argv) == 4 and sys.argv[3] == '--save':
+            should_save = True
         token = sys.argv[2]
         obfuscated_token = obfuscate_token(token)
-        save_token_to_file(obfuscated_token, filename)
-        print(f"Token obfuscated and saved to {filename}")
+        if should_save:
+            save_token_to_file(obfuscated_token, filename)
+            print(f"Token obfuscated and saved to {filename}")
+        else:
+            print(f"Token obfuscated to {obfuscated_token}")
+            print(f"Warning: Token is not saved")
     elif action == 'deobfuscate':
         filename = 'token'
         if len(sys.argv) > 2 and sys.argv[3] == '--file' and len(sys.argv) > 3:
