@@ -1,0 +1,14 @@
+download megabasterd
+
+
+https://mega.nz/#!wOZXAThB!Qg246rKhoQEUMFLjyweNYYlRZkQbaOx2JbnihjHVc58
+https://mega.nz/#!NB5mGQSJ!L_7j_-O0dFkvTuXqdk7jUaeLJSrJc_ACGZ3DCDdksk8
+
+
+1024x576
+
+因为如果包含github的token, 就不让我上传,
+因而上传至github的_config.yml的deploy->github中的token是假的
+需要deploy时, 需要通过token_manager.py的debofuscate来获得真的token,
+然后需要手动的暂时替换_config.yml的内容
+需要push时又要换回假的

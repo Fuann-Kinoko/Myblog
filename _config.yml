@@ -80,7 +80,8 @@ theme: Sakura
 deploy:
   type: git
   repo: 
-    github: https://github.com/Fuann-Kinoko/Fuann-Kinoko.github.io.git
+    github: Z2hwX0VwS1hzUTJDRTZ4WktieG1aVmVuNUFveDhQcWRQWjRicEZRRQ==@github.com/Fuann-Kinoko/Fuann-Kinoko.github.io.git
+    # github: https://github.com/Fuann-Kinoko/Fuann-Kinoko.github.io.git
 #   coding: git@git.coding.net:whyvev/Fuann-Kinoko.github.io.git
 #    gitee: git@gitee.com:whyvev/whyvev.git
   branch: master

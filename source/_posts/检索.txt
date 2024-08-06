@@ -19,4 +19,5 @@
 17.个人同步到Mega的同人志和散图
 18.个人看过的TRPG回放动画盘点
 19.随想*
-20.关于背包问题为什么是伪NPC问题
+20.在WSL环境下使用ranger的两个小技巧
+21.移动硬盘上的arch linux恢复日记(vmlinuz-linux not found)
